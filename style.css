@@ -1,0 +1,84 @@
+h1 {
+  font-family: "EB Garamond", serif;
+  font-size: 60px;
+  box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #e65c00;
+  color: white;
+  padding: 0px 0px 7px 0px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  #img-div {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+  #image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+}
+@media (min-height: 350px) {
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+#img-div {
+  margin: 0px auto 40px auto;
+  padding: 0px;
+  width: 50.3%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ff6600;
+  border-radius: 10%;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.5);
+}
+#image {
+  width: 95%;
+  height: 35%;
+  padding: 5px 10px 0px 15px;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10%;
+}
+section {
+  margin: 0px 50px 10px 5px;
+  padding: 1px 1px 5px 1.5em;
+}
+#img-caption {
+  text-align: center;
+  margin: auto;
+  border-radius: 5px;
+  background-color: hsl(120, 100%, 10%);
+  padding: 2.5px 1px 0.5px;
+  color: white;
+}
+p {
+  text-align: center;
+  font-size: 20px;
+}
+#tribute-info {
+  padding: 10px 5px 2px 15px;
+  background-color: hsl(60, 38%, 90%);
+  margin: 0px 0px 10px 0px;
+  font-size: 16px;
+}
+.tribute-link:hover {
+  animation-name: links;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+@keyframes links {
+  100% {
+    color: #00ccff;
+  }
+}
+footer {
+  text-align: center;
+  background-color: #e65c00;
+  color: white;
+}
